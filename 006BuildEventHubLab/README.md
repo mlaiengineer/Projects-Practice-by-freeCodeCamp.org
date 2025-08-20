@@ -43,8 +43,12 @@ This project was created as part of the **Certified Full Stack Developer Curricu
 
 ## 🌐 Arabic Version | النسخة العربية
 
-To view the Arabic version of the page, click [here](arabicPage.html).  
-لعرض النسخة العربية من الصفحة، اضغط [هنا](arabicPage.html).
+The Arabic version of the site (`arabicPage.html`) was custom-built by the developer and includes its own unique CSS styling to enhance layout and readability for Arabic-speaking users.
+
+تم إنشاء النسخة العربية من الموقع (`arabicPage.html`) بواسطة المطور، وتشمل تنسيق CSS خاص بها لتحسين العرض وسهولة القراءة للمستخدمين الناطقين بالعربية.
+
+Click [here](arabicPage.html) to view the Arabic page.  
+اضغط [هنا](arabicPage.html) لعرض الصفحة العربية.
 
 ---
 
@@ -54,3 +58,8 @@ To view the Arabic version of the page, click [here](arabicPage.html).
 
 ```bash
 git clone https://github.com/mlaiengineer/Projects-Practice-by-freeCodeCamp.org.git
+```
+## 🤝 Credits | الشكر والتقدير
+
+Developed by **@mlaiengineer**  
+Inspired by [freeCodeCamp.org](https://www.freecodecamp.org/)
