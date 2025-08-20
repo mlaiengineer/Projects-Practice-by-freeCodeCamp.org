@@ -1,24 +1,56 @@
 # 🎉 Event Hub | مركز الفعاليات
 
-A simple, bilingual HTML project showcasing upcoming and past tech events. Built as part of the [freeCodeCamp.org](https://www.freecodecamp.org/) Full Stack Developer Curriculum.
+**Event Hub** is a bilingual HTML/CSS project that showcases a curated list of upcoming and past technology events. Developed as part of the [freeCodeCamp.org](https://www.freecodecamp.org/) Certified Full Stack Developer Curriculum, this project emphasizes semantic structure, accessibility, and multilingual presentation.
 
-مشروع HTML بسيط يعرض الفعاليات التقنية القادمة والسابقة، مع دعم للغة العربية. تم إنشاؤه ضمن منهج مطور الويب الكامل من FreeCodeCamp.
-
----
-
-## 🌐 Live Preview
-
-Click [Here](arabicPage.html) to view the Arabic version of the page.  
-اضغط [هنا](arabicPage.html) لعرض النسخة العربية من الصفحة.
+مشروع **مركز الفعاليات** هو مشروع بلغة HTML/CSS يعرض قائمة بالفعاليات التقنية القادمة والسابقة. تم تطويره ضمن منهج مطور الويب الكامل من FreeCodeCamp، مع التركيز على البنية الدلالية وسهولة الوصول ودعم اللغتين.
 
 ---
 
-## 📁 Project Structure
+## 📅 Featured Events | الفعاليات المميزة
 
-```plaintext
-├── index.html          # Main English page
-├── arabicPage.html     # Arabic version of the page
-├── style.css           # Styling for both pages
-```
-## 🚀 How to Use
-git clone https://github.com/maiengineer/event-hub.git
+### 🔜 Upcoming Events | الفعاليات القادمة
+
+- **AI & Machine Learning Conference 2025**  
+  📅 *August 25, 2025*  
+  🔍 A deep dive into the latest advancements in artificial intelligence and machine learning.
+
+- **Web Development Bootcamp**  
+  📅 *August 30, 2025*  
+  🛠️ A hands-on workshop covering React, Node.js, and GraphQL for developers of all levels.
+
+### ✅ Past Events | الفعاليات السابقة
+
+- **Cybersecurity Summit 2025**  
+  📅 *June 15, 2025*  
+  🔐 Focused on modern cybersecurity threats and data protection strategies.
+
+- **Blockchain Expo 2025**  
+  📅 *June 10, 2025*  
+  🔗 Explored DeFi, smart contracts, and blockchain’s impact across industries.
+
+---
+
+## 🎓 Educational Context | السياق التعليمي
+
+This project was created as part of the **Certified Full Stack Developer Curriculum** from [freeCodeCamp.org](https://www.freecodecamp.org/). It demonstrates:
+
+- ✅ Semantic HTML5 structure  
+- ✅ Accessible navigation and layout  
+- ✅ Bilingual content integration (English & Arabic)  
+- ✅ Clean and responsive design principles
+
+---
+
+## 🌐 Arabic Version | النسخة العربية
+
+To view the Arabic version of the page, click [here](arabicPage.html).  
+لعرض النسخة العربية من الصفحة، اضغط [هنا](arabicPage.html).
+
+---
+
+## 🚀 How to Use | كيفية الاستخدام
+
+### 🧭 Clone the repository
+
+```bash
+git clone https://github.com/mlaiengineer/Projects-Practice-by-freeCodeCamp.org.git
