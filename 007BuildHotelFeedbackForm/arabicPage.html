@@ -1,0 +1,72 @@
+<DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>نموذج ملاحظات الفندق</title>
+    </head>
+    <body>
+        <header>
+            <h1>نموذج ملاحظات الفندق</h1>
+            <p>شكرًا لاستضافتكم. يُرجى تزويدنا بملاحظاتكم حول إقامتكم الأخيرة.</p>
+            <p>For English Click <a href="index.html">Here</a></p>
+        </header>
+        <main>
+            <!-- المعومات اشخصية -->
+            <fieldset>
+                <legend>المعومات الشخصية</legend>
+                <label for="yourname">اسمك (مطلوب):</label>
+                <input type="text" required id="yourname" placeholder="مثال: عبدالباسط صالح">
+                <label for="email">عنوان البريد الإلكتروني (مطلوب):</label>
+                <input type="email" required id="email" placeholder="example@email.com">
+                <label for="age">العمر (اختياري):</label>
+                <input type="number" id="age" min="3" max="100" placeholder=" 25">
+            </fieldset>
+            <fieldset>
+                <legend>هل كانت هذه زيارتك الأولى لفندقنا؟</legend>
+                <label for="yes" name="feedback">نعم</label>
+                <input type="radio" name="feedback" id="yes">
+                <label for="no">لا</label>
+                <input type="radio" name="feedback" id="no">
+            </fieldset>
+            <fieldset>
+              <legend>لماذا اخترت الإقامة في فندقنا؟ (اختر جميع الخيارات المناسبة)</legend>
+              <label for="ads">إعلانات وسائل التواصل الاجتماعي</label>
+              <input type="checkbox" id="ads" >
+              <label for="recommendation">التوصيات </label>
+              <input type="checkbox" id="recommendation">
+              <label for="location">الموقع</label>
+              <input type="checkbox" id="location">
+              <label for="reputation">السمعة</label>
+              <input type="checkbox" id="reputation" checked>
+              <label for="price">السعر</label>
+              <input type="checkbox" id="price">
+            </fieldset>
+            <fieldset>
+                <legend>التقيمات</legend>
+                <label for="service">كيف كانت الخدمة؟</label>
+                <select name="options" id="service">
+                    <option value="1" selected>ممتاز</option>
+                    <option value="2">جيد جداً</option>
+                    <option value="3">جيد</option>
+                    <option value="4">مستوفي</option>
+                    <option value="5">ضعيف</option>
+                </select>
+                <label for="service">كيف كان الطعام؟</label>
+                <select name="options" id="service">
+                    <option value="1" selected>ممتاز</option>
+                    <option value="2">جيد جداً</option>
+                    <option value="3">جيد</option>
+                    <option value="4">مستوفي</option>
+                    <option value="5">ضعيف</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>أي تعليقات أو اقتراحات إضافية؟</legend>
+                <textarea name="comments" id="comments" cols="30" rows="10" placeholder="اكتب تعليقاتك هنا..."></textarea>
+                <button type="button">أرسل</button>
+            </fieldset>
+        </main>
+    </body>
+</html>
