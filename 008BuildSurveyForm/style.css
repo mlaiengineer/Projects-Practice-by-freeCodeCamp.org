@@ -1,0 +1,11 @@
+body{
+    background-color: bisque;
+    text-align: center;
+}
+form p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(226, 144, 43);
+}
+footer{
+    font-style: italic;
+}

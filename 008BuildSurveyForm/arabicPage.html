@@ -1,0 +1,66 @@
+<DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <title>نموذج الاستبيان (مهندس الذكاء الاصطناعي/التعلم الآلي)</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>نموذج الاستبيان (مهندس الذكاء الاصطناعي/التعلم الآلي)</h1>
+            <p>For English Click <a href="index.html">Here</a></p>
+            <p>مرحبًا بكم في هذا الاستطلاع، يجمع هذا الاستطلاع معلومات حول دور مهندس الذكاء الاصطناعي/التعلم الآلي.</p>
+        </header>
+        <fieldset>
+            <legend>المعلومات الشخصية </legend>
+            <label for="name">الأسم: </label>
+            <input type="text" id="name" placeholder="مثال: عبدالباسط"><br>
+            <label for="email">الإيميل: </label>
+            <input type="email" name="" id="email" placeholder="email@email.com"><br>
+            <label for="age">العمر: </label>
+            <input type="number" id="age" min="5" max="100" placeholder="25">
+        </fieldset>
+        <fieldset>
+            <legend>أسئلة عامة</legend>
+            <form action="">
+                <p>ما هو الخيار الذي يصف دورك الحالي بشكل أفضل؟</p>
+                <select name="" id="">
+                    <option value="ai-engineer">مهندس ذكاء إصطناعي</option>
+                    <option value="ml-engineer">مهندس علم الآله</option>
+                    <option value="ai-developer" selected>مطور ذكاء إصطناعي</option>
+                    <option value="ml-developer">مطور علم الآله</option>
+                </select>
+                <p>ما هي المنصات التي يمكنك أن توصيني بالاشتراك فيها؟</p>
+                <input type="radio" name="name" id="">
+                <label for="">فري كود كامب</label>
+                <input type="radio" name="name" id="">
+                <label for="">يوديمي</label>
+                <input type="radio" name="name" id="">
+                <label for="">كورسيرا</label>
+                <p>ما هي الميزة المفضلة لديك في المنصة التي تختارها؟</p>
+                <select name="" id="">
+                    <option value="1">الأشياء اعملية كثيرة</option>
+                    <option value="2">تحديث المحتوى</option>
+                    <option value="3" selected>محتوى متعدد الصيغ</option>
+                    <option value="4" >سهل الإستخدام ومرن</option>
+                </select>
+                <p>ما هو نوع المحتوى الموجود على المنصة الذي تختاره (حدد الكل ينطبق)؟</p>
+                <input type="checkbox" name="" id="">
+                <label for="">المحتوى المقروء</label>
+                <input type="checkbox" name="" id="" checked>
+                <label for="">مختبر عملي</label>
+                <input type="checkbox" name="" id="">
+                <label for="">دروس تعليمية</label>
+                <input type="checkbox" name="" id="">
+                <label for="">التدريبات</label>
+                <p>أي مميزات أو نصائح أخرى؟</p>
+                <textarea name="" id="" cols="30" rows="10" placeholder="مميزات أخرى هنا ..."></textarea><br>
+                <button type="submit">إرسال</button>
+            </form>
+        </fieldset>
+        <hr>
+        <footer>
+            <p>تم تطبيق هذا المشروع بواسطة <a href="https://www.freecodecamp.org/mlaiengineer" target="_blank">@mlaiengineer</a> مستوحى من <a href="https://www.freecodecamp.org/" target="_blank">@freecodecamp</a></p>
+        </footer>
+    </body>
+</html>

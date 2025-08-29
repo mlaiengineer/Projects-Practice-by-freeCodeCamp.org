@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form (AI/ ML Engineer)</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form (AI/ ML Engineer)</h1>
+    <p>للعربية أضغط  <a href="arabicPage.html">هنا</a></p>
+    <p id="description">Welcome to this survey, this survey collect
+      information about the role of AI/ML Engineer.
+    </p>
+    <form action="" id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" required placeholder="Ex. Abdulbaset"><br>
+      <label for="email" id="email-label">Email: </label>
+      <input type="email" id="email" required placeholder="example@email.com"><br>
+      <label for="number" id="number-label" >Age (Option): </label>
+      <input type="number"  id="number" min="3" max="100" placeholder="25"><br>
+      <p>Which option best describe you current role?</p>
+      <select name="" id="dropdown">
+        <option value="ai-engineer">AI Engineer</option>
+        <option value="ml-engineer">ML Engineer</option>
+        <option value="ai-developer">AI Developer</option>
+        <option value="ml-developer">ML Developer</option>
+      </select>
+      <p>Which platforms you can recommend me to subscribe to them?</p>
+      <input type="radio" name="one-option" value="freecodecamp">Freecodecamp</input>
+      <input type="radio" value="udemy" name="one-option">Udemy</input>
+      <input type="radio" name="one-option" id="" value="coursera">Coursera</input>
+      <p>Which is your favorite feature about the platform that choose?</p>
+      <select name="" id="favorite">
+        <option value="hands-lab">More hands-of-labs</option>
+        <option value="updated-info">Update information</option>
+        <option value="contain-content">contains multiple content</option>
+        <option value="easy-use">easy to use & understand</option>
+      </select>
+      <p>What the type of content on the platform that you choose (select all apply)?</p>
+      <input type="checkbox" name="" id="reading" value="reading">
+      <label for="reading">Reading</label>
+      <input type="checkbox" name="" id="hands" value="hands">
+      <label for="hands">Hands-on-lab</label>
+      <input type="checkbox" name="" id="tutorials" value="tutorials">
+      <label for="tutorials">Tutorials</label>
+      <input type="checkbox" name="" id="exercise" value="exercise">
+      <label for="exercise">Exercise</label>
+      <p>Any features or advice?</p>
+      <textarea name="" id="" cols="30" rows="10" placeholder="other features here ..."></textarea><br>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+    <hr>
+    <footer>
+      <p>This project applied by <a href="https://www.freecodecamp.org/mlaiengineer" target="_blank">@mlaiengineer</a> inspired from<a href="https://www.freecodecamp.org/" target="_blank">@freecodecamp</a></p>
+    </footer>
+  </body>
+</html>
