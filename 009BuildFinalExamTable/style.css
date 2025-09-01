@@ -1,0 +1,16 @@
+table{
+    background-color: rgb(161, 161, 204);
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+#third-table{
+    background-color: aquamarine;
+}
+#second-table{
+    background-color: bisque;
+}
+#first-table{
+    background-color: blueviolet;
+}
