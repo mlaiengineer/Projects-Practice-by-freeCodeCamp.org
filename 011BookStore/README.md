@@ -29,7 +29,6 @@ It focuses on understanding:
 This project was inspired by **freeCodeCamp** and helped me practice building simple pages using pure HTML.
 
 ## 👤 Author
-
 **Abdulbaset Saleh**
 
 ---
