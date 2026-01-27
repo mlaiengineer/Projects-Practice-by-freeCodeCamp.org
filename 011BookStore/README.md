@@ -33,4 +33,4 @@ This project was inspired by **freeCodeCamp** and helped me practice building si
 
 ---
 
-✨ *This project is part of my learning journey in web development.*
+✨ *This project is part of my learning journey in web development, and AI*
