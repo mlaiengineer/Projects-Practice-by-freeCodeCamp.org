@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(100, 56, 56);
+}
+h1{
+    color: white;
+}
+dt{
+    color: yellow;
+}
+dd{
+    color: bisque;
+}
+center{
+    color: yellow;
+}
