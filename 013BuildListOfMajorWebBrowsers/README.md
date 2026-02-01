@@ -1,7 +1,7 @@
 # 🌐 List of Major Web Browsers
 
 ## 📅 Project Completion
-**Today (2026-01-30), I completed this project.**
+**Today (2026-01-31), I completed this project.**
 
 ## 📌 Project Overview
 This project focuses on building a simple and structured list of major web browsers using **HTML description lists** and **basic CSS styling**. I created it as a practice project to better understand how semantic HTML elements work together with styling.
