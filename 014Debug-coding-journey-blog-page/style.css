@@ -1,0 +1,22 @@
+body{
+
+    background-color: antiquewhite;
+}
+nav{
+    border-color: blue;
+    border-style: double;
+}
+main{
+    border-color: blueviolet;
+    border-style: dashed;
+    
+}
+footer{
+    border-color: yellow;
+    border-width: 6px;
+    border-style: ridge;
+}
+article{
+    border-color: brown;
+    border-style: dotted;
+}
