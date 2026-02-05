@@ -1,0 +1,14 @@
+body{
+    background-color: darksalmon;
+}
+table{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+.important{
+    font-weight: bold;
+    color: red;
+    background-color: greenyellow
+}
